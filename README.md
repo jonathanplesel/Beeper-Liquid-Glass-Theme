@@ -1,11 +1,9 @@
-
 <div align="center">
-  <h1 style="border-bottom: 0">Liquid Glass theme for
+  <h1 style="border-bottom: 0">Liquid Glass Theme V2 for
       <a href="https://www.beeper.com">Beeper Desktop</a></h1>
 </div>
 
-![liquid-glass-theme-for-beeper-v0-m6xc31mj4ohg1 png](https://github.com/user-attachments/assets/4d5267e0-6c40-4536-8b5e-1bc2b03bd96b)
-
+![screenshot liquid](https://github.com/user-attachments/assets/65de6d2f-35f6-4e11-b504-62ebeef9cc7c)
 For those who can’t wait an official release, a small theme that makes me want to use Beeper even more. Based on the colors of Apple Messages and its new Liquid Glass UI. I took the liberty of removing the search button, the new message button, and the send message button.
 
 1. Beeper > Settings > Appearence > Custom CSS > Show CSS file
