@@ -1,0 +1,62 @@
+/*
+# Custom Beeper.app style
+This file will be injected as a <style> tag
+After making your changes, type "Reload custom CSS" in the command bar
+To open dev tools, open the command bar and type "open console"
+*/
+
+:root {
+  /*
+  --font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', sans-serif;
+  */
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {}
+}
+
+.right-pane-header.right-pane-header-thread {
+    box-shadow: 0 0px 0 var(--color-backing-shade);
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --color-secondary-container: #3b3b3d;
+        --color-background-app: rgb(30 30 30);
+	--color-tertiary-container: #1a1a1a;
+}
+
+.BrandNetworkIcon-module__brandNetworkIcon {
+    border-radius: 99%;
+}
+
+.tab-bar-btn button {
+    display: none;
+}
+
+.ComposeMessage-module__input {
+
+  /* Flou du fond derrière l’élément */
+  backdrop-filter: blur(20px) saturate(180%);
+  -webkit-backdrop-filter: blur(20px) saturate(180%);
+
+  border: 0.5px solid rgba(255, 255, 255, 0.25);
+}
+
+.BrandHiddenControls-module__toggle {
+    border: 0.5px solid rgba(255, 255, 255, 0.25);
+}
+
+.ComposeMessage-module__rightButtons {
+    display: none;
+}
+
+.threads.redacted-region {
+	width: 256px;
+	border-radius: 10px;
+	border-color: antiquewhite;
+	border: 0.5px solid rgba(255, 255, 255, 0.25);
+	margin: 8px;
+ 	background: #00000063;
+
+}
